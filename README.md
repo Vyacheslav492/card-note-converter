@@ -28,11 +28,12 @@ cd card-note-converter
 2. Запустите скрипт:
 
 ```bash
-python src/exporter.py
+python src/сonverter.py
 ```
 
-3. Введите путь к исходной заметке
-4. Введите путь к папке для экспорта
+3. После запуска введите в терминал:
+	1. Путь к исходной заметке
+	2. Путь к папке для экспорта
 
 ---
 ## 📝 Формат входных данных
@@ -44,8 +45,8 @@ python src/exporter.py
 
 | Название | Ссылка | Актуальность |
 |----------|--------|--------------|
-| Fiverr   | https://fiverr.com | 5 |
-| Upwork   | https://upwork.com | 4 |
+| Fiverr   | https://threee.com | 5 |
+| Upwork   | https://work.com | 4 |
 ```
 
 ---
@@ -57,7 +58,7 @@ python src/exporter.py
 File.name.md
 
 ---
-Ссылка: https://fiverr.com
+Ссылка: https://threee.com
 Актуальность: 5
 ---
 ```
